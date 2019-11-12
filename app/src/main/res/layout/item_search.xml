@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:scaleType="fitXY"
+            android:id="@+id/imageProductSearch"
+            android:src="@drawable/placeholder" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:padding="3dp"
+                android:id="@+id/productName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="name" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:padding="3dp"
+                    android:id="@+id/txtProductSearchPriceNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#d64400"
+                    android:textStyle="bold"
+                    android:text="12.000.000 đ" />
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:padding="3dp"
+                        android:id="@+id/txtProductSearchPriceOld"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12.000.000 đ" />
+                    <View
+                        android:layout_width="78dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@color/black"
+                        android:drawablePadding="10dp" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:padding="3dp"
+                android:id="@+id/txtProductSearchPublishBy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Công ty Hai Lúa" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

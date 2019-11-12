@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            android:scaleType="fitXY"
+            android:id="@+id/discountimage"
+            android:src="@drawable/placeholder" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:padding="3dp"
+                android:id="@+id/txtdiscountname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="name" />
+
+            <TextView
+                android:padding="3dp"
+                android:id="@+id/txtdiscountenddate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="end date" />
+            <TextView
+                android:padding="3dp"
+                android:id="@+id/txtdiscountcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="code" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

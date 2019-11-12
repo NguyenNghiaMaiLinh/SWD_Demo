@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CB94C562</color>
+    <color name="colorPrimaryDark">#659E76</color>
+    <color name="colorAccent">#ba5247</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#268743</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="yello">#eb7d07</color>
+    <color name="yello2">#E4D234</color>
+    <color name="red">#F44336</color>
+    <color name="yello1">#ebcf00</color>
+</resources>
